@@ -169,7 +169,4 @@ public class TCPClientView extends Application implements Runnable {
         controller.disconnectFromServer(); // 实现此方法来关闭与服务器的连接
     }
 
-    public static void main(String[] args) {
-        launch(args);
-    }
 }
